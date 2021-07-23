@@ -1,7 +1,7 @@
 In this project we are classifying images of people into their respective yoga pose's class.
 
 
-Dataset link: https://drive.google.com/drive/folders/1n1SztpBYPqY-5f079dk8JD4d5b6X-z9T?usp=sharing
+**Dataset link:** https://drive.google.com/drive/folders/1n1SztpBYPqY-5f079dk8JD4d5b6X-z9T?usp=sharing
 
 
 First of all, we will find all the positions of the keypoints like Nose, Shoulders, Elbow, Knee etc from images. For that, we have used AlphaPose github repo(https://github.com/Amanbhandula/AlphaPose).
@@ -13,7 +13,7 @@ Finally, We have used two types of classifier to classify them into their corres
 2. RandomForest Classifier.
 
 
-To try this out:
+## To try this out:
 
 Clone this repo.
 
@@ -30,7 +30,7 @@ Follow the commands.txt file for the following commands.
 
 
 
-Data Set Sizes:
+## Data Set Sizes:
 
 Training Data Set Size: 712
 
@@ -39,7 +39,7 @@ Cross-Validation Data Set Size: 352
 Testing Data Set Size: 490
 
 
-Accuracy with SVM:
+## Accuracy with SVM:
 
 Training Set Accuracy: 0.9634831460674157
 
@@ -48,7 +48,7 @@ Cross Validation Set Accuray: 0.8636363636363636
 Test Set Accuracy: 0.9428571428571428
 
 
-Accuracy with RandomForest Classifier:
+## Accuracy with RandomForest Classifier:
 
 Training Set Accuracy: 1.0
 
