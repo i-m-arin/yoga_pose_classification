@@ -1,0 +1,47 @@
+Training commands:
+
+
+python3 prepare_data.py --indir Train --outdir Data/Train
+
+
+python3 demo.py --list Data/Train/text.txt --indir Train --outdir Data/Train
+
+
+python3 prepare_keypoints.py --indir Data/Train --outdir Data/Train
+
+
+python3 prepare_final_data.py --indir Data/Train --outdir Data/Train
+
+
+python3 train_svm.py --indir Data/Train
+
+python3 train_random_forrest.py --indir Data/Train
+
+
+
+
+
+
+
+
+
+
+Testing commands:
+
+
+python3 prepare_data.py --indir Test --outdir Data/Test
+
+
+python3 demo.py --list Data/Test/text.txt --indir Test --outdir Data/Test
+
+
+python3 prepare_keypoints.py --indir Data/Test --outdir Data/Test
+
+
+python3 prepare_final_data.py --indir Data/Test --outdir Data/Test
+
+
+python3 predict_svm.py --indir Data/Test
+
+python3 predict_random_forest.py --indir Data/Test
+
